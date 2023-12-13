@@ -29,7 +29,7 @@ Credentials = ServiceAccountCredentials.from_json_keyfile_name('Herta.json', sco
 database = gspread.authorize(Credentials)
 # pity = database.open('Herta DB').Pity
 
-TOKEN = 'MTEwMzY2MDA3NDI3MjAzNDg4Ng.GHLVag.wqH1Pn5ymByqGIDt82_4KegEgnNNfIOXDUUQGg'
+TOKEN = 'MTEwMzY2MDA3NDI3MjAzNDg4Ng.G0RVTd.uEYs2IC2xjKxV7lNea-DAQ_zkKRDkjHQZpv-ak'
 
 intents = discord.Intents.default()
 intents.message_content = True
